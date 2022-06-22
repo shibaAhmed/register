@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RegistrationForm">
+  <grid id="27dc6" binding="registerPanel" layout-manager="GridLayoutManager" row-count="8" column-count="30" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="979" height="424"/>
+    </constraints>
+    <properties>
+      <background color="-15923187"/>
+      <font name="Eras Bold ITC" size="16" style="1"/>
+      <foreground color="-1315463"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c3f8a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Bold ITC" size="16" style="1"/>
+          <foreground color="-1315463"/>
+          <text value="Name"/>
+        </properties>
+      </component>
+      <component id="b7bf7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Bold ITC" size="16" style="1"/>
+          <foreground color="-1315463"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="f919b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Bold ITC" size="16" style="1"/>
+          <foreground color="-1315463"/>
+          <text value="Phone"/>
+        </properties>
+      </component>
+      <component id="477b6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Bold ITC" size="16" style="1"/>
+          <foreground color="-1315463"/>
+          <text value="Address"/>
+        </properties>
+      </component>
+      <component id="70046" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Bold ITC" size="16" style="1"/>
+          <foreground color="-1315463"/>
+          <text value="Passowrd"/>
+        </properties>
+      </component>
+      <component id="7a836" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="10" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Bold ITC" size="16" style="1"/>
+          <foreground color="-1315463"/>
+          <text value="Confirm Password"/>
+        </properties>
+      </component>
+      <component id="d33d1" class="javax.swing.JTextField" binding="tfAddress">
+        <constraints>
+          <grid row="4" column="10" row-span="1" col-span="11" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="46e76" class="javax.swing.JPasswordField" binding="pfPassword">
+        <constraints>
+          <grid row="5" column="10" row-span="1" col-span="11" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c7a10" class="javax.swing.JPasswordField" binding="pfConfirmPassword">
+        <constraints>
+          <grid row="6" column="10" row-span="1" col-span="11" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="eb9d4" class="javax.swing.JTextField" binding="tfPhone">
+        <constraints>
+          <grid row="3" column="10" row-span="1" col-span="11" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="ca5b5" class="javax.swing.JTextField" binding="tfEmail">
+        <constraints>
+          <grid row="2" column="10" row-span="1" col-span="11" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6f9f0" class="javax.swing.JTextField" binding="tfName">
+        <constraints>
+          <grid row="1" column="10" row-span="1" col-span="11" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="eb402" class="javax.swing.JButton" binding="btnRegister">
+        <constraints>
+          <grid row="7" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Bold ITC" size="16" style="1"/>
+          <foreground color="-15923187"/>
+          <text value="REGISTER"/>
+        </properties>
+      </component>
+      <component id="538f1" class="javax.swing.JButton" binding="btnCancel">
+        <constraints>
+          <grid row="7" column="16" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Bold ITC" size="16" style="1"/>
+          <foreground color="-15923187"/>
+          <text value="CANCEL"/>
+        </properties>
+      </component>
+      <component id="cf703" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Franklin Gothic Heavy" size="48" style="1"/>
+          <foreground color="-813325"/>
+          <text value="REGISTER"/>
+        </properties>
+      </component>
+      <component id="6e96e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="login.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
